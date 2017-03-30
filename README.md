@@ -13,8 +13,10 @@ Python, Gitpython and requests:
 
 First step is to modify the migrate.py file. You need to specify COMPANY_KEY, ACCOUNT_KEY, COMPANY_NAME, USERNAME and PASSWORD from Deveo side. From your current code hosting solution side, you need to specify domain including HTTPS credentials, and project and repository names inside a python dictionary in the form of:
 
-   { "PROJECT-NAME": ["repository1-name", "repository2-name"],
-     "PROJECT2-NAME": ["repository3-name", "repository4-name"] }
+```
+{ "PROJECT-NAME": ["repository1-name", "repository2-name"],
+  "PROJECT2-NAME": ["repository3-name", "repository4-name"] }
+```
 
 After you have the modifications in place, you may execute the migration script as follows:
 
