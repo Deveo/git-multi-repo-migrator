@@ -24,8 +24,8 @@ The script works as follows:
 
 1. create a new project in Deveo
 2. Loop through the projects and for each project
-  1. Create a new project to Deveo and for each repository inside that project:
-    1. clone your existing repository in to a temporary directory
-    2. create corresponding repository to Deveo
-    3. push the changes to Deveo repository
-    4. Delete the tepomrary directory
+   1. Create a new project to Deveo and for each repository inside that project:
+      1. clone your existing repository in to a temporary directory
+      2. create corresponding repository to Deveo
+      3. push the changes to Deveo repository
+      4. Delete the tepomrary directory
